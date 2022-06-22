@@ -1,0 +1,59 @@
+
+ body{
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+    
+#mainFlex{
+    display: flex;
+}
+#bodyBackground{             
+    position: fixed;  
+    height: 98%;
+    width: 100%;
+    z-index: -100;                
+}  
+#mainBox{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+   
+}
+#pillar{
+    margin-left: 1px;
+}
+#rightCurtain{
+    display: flex;
+    margin-left: 90vw;
+    animation: moveRight 20s;
+}
+#limg {
+    position: relative;
+    
+    
+    z-index: 100;
+    height: 100vh;
+    width: 5vw;
+}
+#coverUp{
+    position: relative;
+    border-style: solid;
+    background-color: black;
+    width: 90vw;
+    z-index: 100;
+}
+#top{
+    height: 10vh;
+}
+#center{
+    height: 80vh;
+}
+#bottom{
+    height: 10vh;
+}
+
+@keyframes moveRight {
+    from {margin-left: 0vw;}
+    to {margin-left: 90vw;}
+}

@@ -1,0 +1,41 @@
+html{
+    background-color: black;
+}
+#curtainBox {
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    z-index: 50;
+}
+
+#limg {
+    height: 90vh;
+    width: 5vw;
+    overflow: hidden;
+}
+#centerCurtain {      
+    /*opacity: 0.8;*/
+    height: 100vh;
+    width: 0vw;
+    animation: moveLeft 20s;
+    
+}
+#mod {
+    height: 90vh;
+    width: 100vw;
+}
+p{  
+    z-index: 1;
+}
+.centerText {
+    text-align: center;
+}
+
+@keyframes moveRight {
+    from {width: 0vw;}
+    to {width: 0vw;}
+    }
+@keyframes moveLeft {
+        from {width: 100vw;}
+        to {width: 0vw;}   
+    }
