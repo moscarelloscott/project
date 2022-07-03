@@ -1,41 +1,51 @@
-html{
+#bodyBackground{             
+    position: fixed;  
+    height: 100%;
+    width: 100%;
+    z-index: -100; 
+                   
+}  
+#coverUpL{
+    position: relative;
+    border-style: solid;
     background-color: black;
+    width: 45vw;
+    height: 100%;
+    z-index: 100;
 }
-#curtainBox {
-    position: absolute;
+#pillar{
+    position: relative;
     display: flex;
-    overflow: hidden;
-    z-index: 50;
+    margin-left: -44vw;
+    animation: moveLeft 5s;   
+}
+#rightCurtain{
+    position: relative;
+    display: flex;
+    margin-left: 88vw; 
+    animation: moveRight 5s;
+}
+#limg {
+    position: relative;    
+    z-index: 100;
+    height: 100vh;
+    width: 5vw;
 }
 
-#limg {
-    height: 90vh;
-    width: 5vw;
-    overflow: hidden;
-}
-#centerCurtain {      
-    /*opacity: 0.8;*/
-    height: 100vh;
-    width: 0vw;
-    animation: moveLeft 10s;
-    
-}
-#mod {
-    height: 90vh;
-    width: 100vw;
-}
-p{  
-    z-index: 1;
-}
-.centerText {
-    text-align: center;
+#coverUp{
+    position: relative;
+    border-style: solid;
+    background-color: black;
+    width: 45vw;
+    height: 100%;
+    z-index: 100;
 }
 
 @keyframes moveRight {
-    from {width: 0vw;}
-    to {width: 0vw;}
-    }
+    from {margin-left: 0px;}
+    to {margin-left: 88vw;}
+}
 @keyframes moveLeft {
-        from {width: 100vw;}
-        to {width: 0vw;}   
-    }
+    from {margin-left: 0vw;}
+    to {margin-left: -44vw;}
+}
