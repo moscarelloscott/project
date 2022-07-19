@@ -1,0 +1,18 @@
+#storyBox{
+            
+    border-style: solid;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+p {
+    border-style: none;
+    
+    font-family: Papyrus;
+    font-size: 50px;
+    font-weight: bolder;
+    
+}
