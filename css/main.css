@@ -23,10 +23,11 @@
     margin-right: auto;
     text-align: center;
     position: fixed;
-    /*transform: rotate(-90deg);*/
-   
+    /*transform: rotate(-90deg);*/  
 }
 #top{
+    display: flex;
+    justify-content: space-around;
     height: 10vh;
 }
 #center{
