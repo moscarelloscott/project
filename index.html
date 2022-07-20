@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <!--link rel="stylesheet" href="css/main.css"-->
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/curtain.css">
+    <!--link rel="stylesheet" href="css/curtain.css"-->
+    <link rel="stylesheet" media="screen and (max-width: 960px)" href="css/smallMain.css">
+    <link rel="stylesheet" media="screen and (min-width: 680px)" href="css/bigMain.css">
     <title>Document</title>
 
 </head>
 <body>
    
         <div id="mainFlex">
-<!--                 curtain setup                                       -->
-            <img id="bodyBackground" src="img/blankScrollBack.jpg">
+<!--                 curtain setup   moved to bottom of code                                    
             
-            <div id="pillar">
+            <img id="bodyBackground" src="img/scrollCenter.jpg">
+            
+            <div id="leftCurtain">
                 <div id="coverUpL"></div>
                 <img id="limg" src="img/scrollLeft.jpg">
             </div>
@@ -24,7 +27,7 @@
             <div id="rightCurtain">
                 <img id="limg" src="img/scrollRight.jpg">
                 <div id="coverUp"></div>
-            </div>
+            </div> -->
         
     <!--              break                                  -->    
             <div id="mainBox" class="centerText">
@@ -52,6 +55,19 @@
                     </ol>
                 </div>
             </div>
+            <!--                 curtain setup                                       -->
+            <img id="bodyBackground" src="img/scrollCenter.jpg">
+            
+            <div id="leftCurtain">
+                <div id="coverUpL"></div>
+                <img id="limg" src="img/scrollLeft.jpg">
+            </div>
+            
+            <div id="rightCurtain">
+                <img id="limg" src="img/scrollRight.jpg">
+                <div id="coverUp"></div>
+            </div>
+
         </div>
 
     
