@@ -42,11 +42,9 @@
     position: fixed;  
     height: 100%;
     width: 100%;
-    z-index: -100;                  
+    z-index: -100; 
+                   
 }  
-#smallBackground {
-    display: none;
-}
 #coverUpL{
     position: relative;
     border-style: solid;
@@ -97,20 +95,3 @@
     from {margin-left: 0vw;}
     to {margin-left: -44vw;}
 }
-@media only screen and (max-width: 820px) {
-    /* For mobile phones: */
-    #limg {
-        display:none;
-    }
-    #bodyBackground {
-        display:none;
-    }
-    #smallBackground{ 
-        display: block;            
-        position: fixed;  
-        height: 100%;
-        width: 100%;
-        z-index: -100;                  
-    }  
-
-  }
