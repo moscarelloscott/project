@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+    
+#mainFlex{
+    display: flex;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#mainBox{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: auto;
+    text-align: center;
+    position: fixed;
+    /*transform: rotate(-90deg);*/  
+}
+#top{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+#center{
+    height: 80vh;
+}
+#bottom{
+    height: 10vh;
+}
+

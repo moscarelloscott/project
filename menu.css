@@ -1,0 +1,12 @@
+#menu{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    border-bottom-style: dotted;
+    background-color: transparent;
+    box-shadow:2px 2px 60px 0px antiquewhite inset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border-radius: 25px;
+}
