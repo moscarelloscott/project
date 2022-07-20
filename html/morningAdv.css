@@ -1,23 +1,23 @@
 body {
     height: 100%;
     margin: 0;
-    background-color: #463822;
-    background: linear-gradient(#456142, #463822);
+    /*background-color: #463822;*/
+    /*background: linear-gradient(#456142, #463822);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-size: 18px;
+    font-size: 24px;
     letter-spacing: .5px;
-    font-weight: 400;
-    color: #F5ECEE;
-    font-family: 'Inconsolata', monospace;
+    font-weight: 800;
+    color: brown;
+    font-family: 'Papyrus', monospace;
   }
 
-  #wrapper{
-      width:100%;
-      height:100%;
+  #storyBox{
+    width:100%;
+    height:100%;
     display:flex;
-align-items: center;
-justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   
   form {
@@ -29,16 +29,20 @@ justify-content: center;
     margin-bottom: 18px;
     font-size: 1.175em;
     line-height: 32px;
+    box-shadow:2px 2px 60px -20px darkred inset;
   }
   form fieldset {
     margin-bottom: 28px;
     padding: 0;
     border: none;
+    box-shadow:2px 2px 60px -20px red inset;
   }
-  form a.continue {
+  form a.continue { /*continue button*/
     font-size: 1.175em;
-    background-color: #F5ECEE;
+    background-color: transparent;
     color: #456142;
+    
+    box-shadow:2px 2px 60px -20px red inset;
     padding: .5em 1em;
     text-decoration: none;
 
@@ -54,6 +58,7 @@ justify-content: center;
   }
   button.reset{
       background-color: transparent;
+      box-shadow:2px 2px 60px -20px red inset;
       border:none;
       color: #F5ECEE;
       font-family: 'Inconsolata', monospace;
@@ -80,7 +85,7 @@ justify-content: center;
     visibility: hidden;
   }
   form input[type=radio]:checked + span {
-     border: 2px solid  #DA966A;
+    border: 2px solid  #DA966A;
     background-color:#F5ECEE;
     color: #463822;
   }

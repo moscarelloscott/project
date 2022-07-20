@@ -21,7 +21,8 @@ body{
 .wrapper{
   width: 420px;
   border-radius: 7px;
-  background: burlywood;
+  background: transparent;
+  box-shadow:2px 2px 60px 0px darkred inset;
   padding: 25px 28px 45px;
 }
 .wrapper header{
